@@ -2,10 +2,20 @@ import React from 'react'
 import feels from "../image/FEELINGS CALCULATR.jpeg"
 import { Link } from 'react-router-dom'
 import Navbar from '../navbar';
+import { useState } from 'react';
 
 
 
-export default function feel() {
+export default function Feel() {
+    const [dianame, setDianame] = useState("");
+
+    const handleNameChange = (event) => {
+        setDianame(event.target.value);
+    };
+
+    const onHandleSubmit = () => {
+        localStorage.setItem("feel", JSON.stringify(dianame));
+    };
     return (
         <div>
             <Navbar />
@@ -20,9 +30,15 @@ export default function feel() {
                     <p className="card__namess">"To find out type your name below and click SUBMIT button.."</p>
 
 
-                    <input placeholder='ENTER YOUR NAME' className="input"></input>
-                    <Link to="/feel">
-                        <button className="btn draw-border"><b>CALCULATE FRIENDS</b></button>
+                    <input
+                        placeholder="ENTER YOUR NAME"
+                        className="input"
+                        value={dianame}
+                        onChange={handleNameChange}
+                    />
+
+                    <Link to="/sfeel">
+                        <button onClick={onHandleSubmit} className="btn draw-border"><b>CALCULATE PERSON</b></button>
 
                     </Link>
 

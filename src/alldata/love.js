@@ -2,8 +2,19 @@ import React from 'react'
 import loves from "../image/love-you.jpg"
 import { Outlet, Link } from "react-router-dom";
 import Navbar from '../navbar';
+import { useState } from 'react';
 
-export default function love() {
+
+export default function Love() {
+    const [dianame, setDianame] = useState("");
+
+    const handleNameChange = (event) => {
+        setDianame(event.target.value);
+    };
+
+    const onHandleSubmit = () => {
+        localStorage.setItem("you", JSON.stringify(dianame));
+    };
     return (
         <div>
             <Navbar />
@@ -21,10 +32,15 @@ export default function love() {
 
                         "
                     </p>
-                    <input placeholder='ENTER YOUR NAME' className="input"></input>
+                    <input
+                        placeholder="ENTER YOUR NAME"
+                        className="input"
+                        value={dianame}
+                        onChange={handleNameChange}
+                    />
 
-                    <Link to="/love">
-                        <button className="btn draw-border"><b>CALCULATE LOVES</b></button>
+                    <Link to="/slove">
+                        <button onClick={onHandleSubmit} className="btn draw-border"><b>CALCULATE LOVES</b></button>
 
                     </Link>
 

@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import dias from "../../image/DIE.jpg";
-import '../../index.css';
-import { Link } from "react-router-dom";
+import React from 'react'
 import Navbar from '../../navbar';
+import { Link } from 'react-router-dom';
+import trueloves from "../../image/true love.png"
+import { useEffect, useState } from 'react';
 
-export default function Setdia() {
+
+export default function Settlove() {
+
     const [dia, setDia] = useState("");
 
     useEffect(() => {
-        const frddata = JSON.parse(localStorage.getItem('dianame'));
+        const frddata = JSON.parse(localStorage.getItem('stlove'));
         setDia(frddata);
         console.log(frddata);
     }, []);
@@ -20,33 +22,42 @@ export default function Setdia() {
     const sendWhatsAppMessage = () => {
         const friendship = generateRandomNumber(1, 30);
         const love = generateRandomNumber(1, 12);
-        const caring = generateRandomNumber(50, 70);
+        const caring = generateRandomNumber(25, 30);
 
         const message = `
-        *${dia} Death Date:- ${friendship}/ ${love}/ ${caring}☠*
+*${dia} You'll meet* 
+*Your soulmate on:- ${friendship}/ ${love}/ ${caring}❤️*
 
-         Find out When will you die👇👇
-         bit.ly/3ZPEVM3 
+This way Find out the
+When Will You Meet 
+Your True LOVE👇👇
+bit.ly/3ZPEVM3 
         `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);
     };
-
     return (
         <div>
             <Navbar />
             <div className='datas'>
                 <div className="cards">
                     <img
-                        src={dias}
+                        src={trueloves}
                         alt="Person"
                         className="card__images"
                     />
-                    <p className="card__names"><i><b>HELLO {dia}</b></i></p>
-                    <p className="card__namess">" To know the When will you die?, click on the "Share on Whatsapp status" button below and set it as your WhatsApp Status. The result will appear on your WhatsApp Status........"</p>
+                    <p className="card__namess"><i><b>HELLO {dia}</b></i></p>
+                    <p className="card__namess"> Click on the Share on Whatsapp Status button below to know and enter it as your WhatsApp status Your result will appear in your WHATSAPP STATUS..</p>
+
+
+
+
                     <Link>
                         <button className="btn draw-border" onClick={sendWhatsAppMessage}><b>Send on WhatsApp</b></button>
+
+
                     </Link>
+
                 </div>
             </div>
         </div>

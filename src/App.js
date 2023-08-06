@@ -22,6 +22,22 @@ import Truelove from './alldata/truelove';
 import You from './alldata/you';
 import Frnd from './alldata/setdata/setfriend';
 import Daia from './alldata/setdata/setdia';
+import Somate from "./alldata/setdata/setsoulmate"
+import Crushh from "./alldata/setdata/setcrushes"
+import Syou from "./alldata/setdata/setyou"
+import Sfr from "./alldata/setdata/setfriends"
+import Slove from "./alldata/setdata/setlove"
+import Sage from "./alldata/setdata/setage"
+import Sfeel from "./alldata/setdata/setfeel"
+import Stlove from "./alldata/setdata/settlove"
+import Sgood from "./alldata/setdata/setgood"
+
+
+
+
+
+
+
 
 
 
@@ -52,6 +68,23 @@ function App() {
           <Route path="secret" element={<Secret />} />
           <Route path="frnd" element={<Frnd />} />
           <Route path="daisend" element={<Daia />} />
+          <Route path="somate" element={<Somate />} />
+          <Route path="crusheh" element={<Crushh />} />
+          <Route path="syou" element={<Syou />} />
+          <Route path="sfr" element={<Sfr />} />
+          <Route path="slove" element={<Slove />} />
+          <Route path="sage" element={<Sage />} />
+          <Route path="stlove" element={<Stlove />} />
+          <Route path="sgood" element={<Sgood />} />
+          <Route path="sfeel" element={<Sfeel />} />
+
+
+
+
+
+
+
+
 
 
 

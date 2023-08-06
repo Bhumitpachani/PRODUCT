@@ -2,8 +2,19 @@ import React from 'react'
 import ages from "../image/mental-age-personality-test-compressed.jpg"
 import { Link } from "react-router-dom";
 import Navbar from '../navbar';
+import { useState } from 'react';
 
-export default function age() {
+
+export default function Age() {
+    const [dianame, setDianame] = useState("");
+
+    const handleNameChange = (event) => {
+        setDianame(event.target.value);
+    };
+
+    const onHandleSubmit = () => {
+        localStorage.setItem("age", JSON.stringify(dianame));
+    };
     return (
         <div>
             <Navbar />
@@ -19,10 +30,15 @@ export default function age() {
                         Check out your Mental Age type your name below and click on Start button
 
                         "</p>
-                    <input placeholder='ENTER YOUR NAME' className="input"></input>
+                    <input
+                        placeholder="ENTER YOUR NAME"
+                        className="input"
+                        value={dianame}
+                        onChange={handleNameChange}
+                    />
 
-                    <Link to="/age">
-                        <button className="btn draw-border"><b>CALCULATE MENTAL AGE</b></button>
+                    <Link to="/sage">
+                        <button onClick={onHandleSubmit} className="btn draw-border"><b>CALCULATE PERSON</b></button>
 
                     </Link>
 

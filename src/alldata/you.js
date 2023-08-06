@@ -2,8 +2,18 @@ import React from 'react'
 import youu from "../image/type.png"
 import { Outlet, Link } from "react-router-dom";
 import Navbar from '../navbar';
+import { useState } from 'react';
 
-export default function you() {
+export default function You() {
+    const [dianame, setDianame] = useState("");
+
+    const handleNameChange = (event) => {
+        setDianame(event.target.value);
+    };
+
+    const onHandleSubmit = () => {
+        localStorage.setItem("you", JSON.stringify(dianame));
+    };
     return (
         <div>
             <Navbar />
@@ -20,10 +30,15 @@ export default function you() {
                         To find out type your name below and click SUBMIT button.
                         "
                     </p>
-                    <input placeholder='ENTER YOUR NAME' className="input"></input>
+                    <input
+                        placeholder="ENTER YOUR NAME"
+                        className="input"
+                        value={dianame}
+                        onChange={handleNameChange}
+                    />
 
-                    <Link to="/you">
-                        <button className="btn draw-border"><b>CALCULATE PERSON</b></button>
+                    <Link to="/syou">
+                        <button onClick={onHandleSubmit} className="btn draw-border"><b>CALCULATE PERSON</b></button>
 
                     </Link>
 

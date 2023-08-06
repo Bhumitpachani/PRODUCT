@@ -169,7 +169,7 @@ export default function page1() {
 
                 </div>
 
-                <div className="card">
+                <div className="card" style={{ marginBottom: "50px" }}>
                     <img
                         src={good}
                         alt="Person"

@@ -2,9 +2,19 @@ import React from 'react'
 import Navbar from '../navbar';
 import { Link } from 'react-router-dom';
 import trueloves from "../image/true love.png"
+import { useState } from 'react';
 
 
-export default function truelove() {
+export default function Truelove() {
+    const [dianame, setDianame] = useState("");
+
+    const handleNameChange = (event) => {
+        setDianame(event.target.value);
+    };
+
+    const onHandleSubmit = () => {
+        localStorage.setItem("stlove", JSON.stringify(dianame));
+    };
     return (
         <div>
             <Navbar />
@@ -19,9 +29,15 @@ export default function truelove() {
                     <p className="card__namess"> To find out type your name below and click SUBMIT button..</p>
 
 
-                    <input placeholder='ENTER YOUR NAME' className="input"></input>
-                    <Link to="/truelove">
-                        <button className="btn draw-border"><b>CALCULATE FRIENDS</b></button>
+                    <input
+                        placeholder="ENTER YOUR NAME"
+                        className="input"
+                        value={dianame}
+                        onChange={handleNameChange}
+                    />
+
+                    <Link to="/stlove">
+                        <button onClick={onHandleSubmit} className="btn draw-border"><b>CALCULATE PERSON</b></button>
 
                     </Link>
 
