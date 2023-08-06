@@ -20,6 +20,9 @@ import Secret from './alldata/secret';
 import Soulmate from './alldata/soulmate';
 import Truelove from './alldata/truelove';
 import You from './alldata/you';
+import Frnd from './alldata/setdata/setfriend';
+import Daia from './alldata/setdata/setdia';
+
 
 
 function App() {
@@ -47,6 +50,9 @@ function App() {
           <Route path="truelove" element={<Truelove />} />
           <Route path="you" element={<You />} />
           <Route path="secret" element={<Secret />} />
+          <Route path="frnd" element={<Frnd />} />
+          <Route path="daisend" element={<Daia />} />
+
 
 
         </Routes>

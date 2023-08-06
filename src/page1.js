@@ -244,7 +244,7 @@ export default function page1() {
                     </Link>
 
                 </div>
-                <div className="card">
+                <div className="card" style={{ marginBottom: "30px" }}>
                     <img
                         src={cartoon}
                         alt="Person"
