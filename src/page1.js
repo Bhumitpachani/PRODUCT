@@ -88,19 +88,7 @@ export default function page1() {
                     </Link>
 
                 </div>
-                <div className="card">
-                    <img
-                        src={name}
-                        alt="Person"
-                        className="card__image"
-                    />
-                    <p className="card__name">Find out the meaning of your name?</p>
-                    <Link to="/name">
-                        <button className="btn draw-border"><b>CALCULATE NAME</b></button>
 
-                    </Link>
-
-                </div>
                 <div className="card">
                     <img
                         src={you}
@@ -153,19 +141,7 @@ export default function page1() {
                     </Link>
 
                 </div>
-                <div className="card">
-                    <img
-                        src={brahma}
-                        alt="Person"
-                        className="card__image"
-                    />
-                    <p className="card__name">Brahma Answers?</p>
-                    <Link to="/brahma">
-                        <button className="btn draw-border"><b>CALCULATE BRAHMA ANS</b></button>
 
-                    </Link>
-
-                </div>
                 <div className="card">
                     <img
                         src={feel}
@@ -192,19 +168,7 @@ export default function page1() {
                     </Link>
 
                 </div>
-                <div className="card">
-                    <img
-                        src={here}
-                        alt="Person"
-                        className="card__image"
-                    />
-                    <p className="card__name">Which Superhero Traits You Have?</p>
-                    <Link to="/here">
-                        <button className="btn draw-border"><b>CALCULATE SUPERHERE TRAITS</b></button>
 
-                    </Link>
-
-                </div>
                 <div className="card">
                     <img
                         src={good}
@@ -218,45 +182,7 @@ export default function page1() {
                     </Link>
 
                 </div>
-                <div className="card">
-                    <img
-                        src={secret}
-                        alt="Person"
-                        className="card__image"
-                    />
-                    <p className="card__name">Secret Wall</p>
-                    <Link to="secret">
-                        <button className="btn draw-border"><b>CALCULATE WALL</b></button>
 
-                    </Link>
-
-                </div>
-                <div className="card">
-                    <img
-                        src={lity}
-                        alt="Person"
-                        className="card__image"
-                    />
-                    <p className="card__name">What Type Of Persnolity you have?</p>
-                    <Link to="/lity">
-                        <button className="btn draw-border"><b>CALCULATE PERSNOLITY</b></button>
-
-                    </Link>
-
-                </div>
-                <div className="card" style={{ marginBottom: "30px" }}>
-                    <img
-                        src={cartoon}
-                        alt="Person"
-                        className="card__image"
-                    />
-                    <p className="card__name">Which Cartoon are you?</p>
-                    <Link to="/cartoon">
-                        <button className="btn draw-border"><b>CALCULATE CARTOON</b></button>
-
-                    </Link>
-
-                </div>
 
             </div>
 
