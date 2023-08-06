@@ -12,11 +12,25 @@ export default function Live() {
 
 
         const message = `
-*IAM YOUR _____??*  
+*I AM YOUR _____??*  
 *Send Me Any 1 Heart Emoji Below*
 
-❤ 💙 🧡 💛 💜 ❤‍🩹💗 ❤‍🔥 🖤 💝 🤍 💖
+❤ = *Girlfreind*  
+💙 = *Best Freind*
+🧡 = *Crush*
+💛 = *Brother*
+💜 = *Sister*
+❤‍🩹 = *Boyfreind*
+💗 = *Pagal*
+❤‍🔥 = *Love*
+🖤 = *Everything*
+💝 = *Husband*
+🤍 = *Life*
+💖 = *Nothing*
 
+
+Check Yours👇👇
+bit.ly/3HWTeav 
         `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);

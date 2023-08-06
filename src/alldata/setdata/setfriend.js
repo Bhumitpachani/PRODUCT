@@ -40,6 +40,7 @@ export default function Setfriend() {
         *Caring:-${caring} %*🤗
         *Crazy:-${crazy} %*🤪
         *Cute:-${cute} %*🥰
+        
         Check Yours👇👇
         bit.ly/3HWTeav 
         `;

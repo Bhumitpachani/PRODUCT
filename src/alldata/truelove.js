@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar';
 import { Link } from 'react-router-dom';
-import trueloves from "../image/true love.png"
+import trueloves from "../image/true love.jpeg"
 import { useState } from 'react';
 
 

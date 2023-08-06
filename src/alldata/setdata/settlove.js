@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../navbar';
 import { Link } from 'react-router-dom';
-import trueloves from "../../image/true love.png"
+import trueloves from "../../image/true love.jpeg"
 import { useEffect, useState } from 'react';
 
 
@@ -30,6 +30,7 @@ export default function Settlove() {
 
 This way Find out the
 When Will You Meet 
+
 Your True LOVE👇👇
 bit.ly/3ZPEVM3 
         `;

@@ -1,5 +1,5 @@
 import React from 'react'
-import crushs from "../../image/crush.png"
+import crushs from "../../image/crush.jpeg"
 import { Outlet, Link } from "react-router-dom";
 import Navbar from '../../navbar';
 import { useState, useEffect } from 'react';
@@ -24,7 +24,11 @@ export default function Setcrushes() {
         const randomLetter = getRandomLetter();
 
         const message = `
-*${state}* According to your Name Your Crush Name Starts From  ❤️ *${randomLetter}* ❤️
+*${state}* According to your Name
+
+Your Crush Name Starts From  
+
+❤️ *${randomLetter}* ❤️
 
 Check Your Soulmate Name👇👇
 bit.ly/3uU1O2A

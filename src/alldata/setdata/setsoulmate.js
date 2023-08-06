@@ -1,5 +1,5 @@
 import React from 'react';
-import soulmates from "../../image/sul mate.jpg";
+import soulmates from "../../image/sul mate.jpeg";
 import { Link } from "react-router-dom";
 import Navbar from '../../navbar';
 import { useState, useEffect } from 'react';

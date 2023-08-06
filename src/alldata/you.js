@@ -1,5 +1,5 @@
 import React from 'react'
-import youu from "../image/type.png"
+import youu from "../image/type.jpeg"
 import { Outlet, Link } from "react-router-dom";
 import Navbar from '../navbar';
 import { useState } from 'react';

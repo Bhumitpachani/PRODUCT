@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import dias from "../../image/DIE.jpg";
+import dias from "../../image/DIE.jpeg";
 import '../../index.css';
 import { Link } from "react-router-dom";
 import Navbar from '../../navbar';
@@ -23,11 +23,11 @@ export default function Setdia() {
         const caring = generateRandomNumber(50, 70);
 
         const message = `
-        *${dia} Death Date:- ${friendship}/ ${love}/ ${caring}☠*
+*${dia} Death Date:- ${friendship}/ ${love}/ ${caring}☠*
 
-         Find out When will you die👇👇
-         bit.ly/3ZPEVM3 
-        `;
+Find out When will you die👇👇
+bit.ly/3ZPEVM3 
+`;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);
     };

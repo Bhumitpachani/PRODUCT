@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import dias from "../image/DIE.jpg";
+import dias from "../image/DIE.jpeg";
 import { Link } from "react-router-dom";
 import Navbar from '../navbar';
 

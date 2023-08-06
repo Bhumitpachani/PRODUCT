@@ -1,5 +1,5 @@
 import React from 'react'
-import feels from "../../image/FEELINGS CALCULATR.jpeg"
+import feels from "../../image/FEELINGS CALCULATR.png"
 import { Link } from 'react-router-dom'
 import Navbar from '../../navbar';
 import { useState, useEffect } from 'react';

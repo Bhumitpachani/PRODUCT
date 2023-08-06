@@ -1,5 +1,5 @@
 import React from 'react'
-import loves from "../image/love-you.jpg"
+import loves from "../image/love-you.jpeg"
 import { Outlet, Link } from "react-router-dom";
 import Navbar from '../navbar';
 import { useState } from 'react';
