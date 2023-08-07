@@ -31,7 +31,8 @@ export default function Setage() {
 
 Are you my best friend ?
 check your mental age👇👇
-bit.ly/3HWTeav 
+wisheszone.web.app
+ 
         `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);

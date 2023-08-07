@@ -27,6 +27,7 @@ export default function Setlove() {
 
  Find out Who loves you the most
 👇🏼👇🏼
+wisheszone.web.app
 
     `;
         const encodedMessage = encodeURIComponent(message);

@@ -42,7 +42,8 @@ export default function Setfriend() {
         *Cute:-${cute} %*🥰
         
         Check Yours👇👇
-        bit.ly/3HWTeav 
+        wisheszone.web.app
+
         `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);

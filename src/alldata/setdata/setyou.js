@@ -41,7 +41,8 @@ export default function Setyou() {
 *Love:-${cutee}%*❤️
 
 Check Yours👇👇
-bit.ly/3HWTeav 
+wisheszone.web.app
+ 
         `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);

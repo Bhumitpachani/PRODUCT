@@ -26,7 +26,8 @@ export default function Setdia() {
 *${dia} Death Date:- ${friendship}/ ${love}/ ${caring}☠*
 
 Find out When will you die👇👇
-bit.ly/3ZPEVM3 
+wisheszone.web.app
+ 
 `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);

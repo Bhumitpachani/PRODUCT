@@ -30,7 +30,8 @@ export default function Live() {
 
 
 Check Yours👇👇
-bit.ly/3HWTeav 
+wisheszone.web.app
+ 
         `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);

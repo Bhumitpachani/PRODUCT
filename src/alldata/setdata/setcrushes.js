@@ -31,7 +31,8 @@ Your Crush Name Starts From
 ❤️ *${randomLetter}* ❤️
 
 Check Your Soulmate Name👇👇
-bit.ly/3uU1O2A
+wisheszone.web.app
+
     `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);

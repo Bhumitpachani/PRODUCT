@@ -32,7 +32,8 @@ This way Find out the
 When Will You Meet 
 
 Your True LOVE👇👇
-bit.ly/3ZPEVM3 
+wisheszone.web.app
+ 
         `;
         const encodedMessage = encodeURIComponent(message);
         window.open(`whatsapp://send?text=${encodedMessage}`);
