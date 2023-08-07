@@ -12,7 +12,7 @@ export default function Love() {
         setDianame(event.target.value);
     };
 
-    const onHandleSubmit = () => {
+    const onHandleSubmit = (event) => {
         localStorage.setItem("you", JSON.stringify(dianame));
     };
     return (

@@ -8,7 +8,7 @@ export default function Setlove() {
     const [state, setState] = useState([]);
 
     useEffect(() => {
-        const frddata = JSON.parse(localStorage.getItem('love'));
+        const frddata = JSON.parse(localStorage.getItem('you'));
         setState(frddata);
         console.log(frddata);
     }, []);
