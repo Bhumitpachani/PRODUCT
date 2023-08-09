@@ -26,7 +26,7 @@ export default function Setdia() {
 *${dia} Death Date:- ${friendship}/ ${love}/ ${caring}☠*
 
 Find out When will you die👇👇
-wisheszone.web.app
+wisheszonee.web.app
  
 `;
         const encodedMessage = encodeURIComponent(message);

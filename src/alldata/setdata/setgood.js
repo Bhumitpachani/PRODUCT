@@ -45,7 +45,7 @@ export default function Setgood() {
 *प्यार:-${cuteee}%* ❤️
 
 Check Yours👇👇
-wisheszone.web.app
+wisheszonee.web.app
  
         `;
         const encodedMessage = encodeURIComponent(message);

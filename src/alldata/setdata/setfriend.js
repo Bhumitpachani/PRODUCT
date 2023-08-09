@@ -42,7 +42,7 @@ export default function Setfriend() {
         *Cute:-${cute} %*🥰
         
         Check Yours👇👇
-        wisheszone.web.app
+        wisheszonee.web.app
 
         `;
         const encodedMessage = encodeURIComponent(message);

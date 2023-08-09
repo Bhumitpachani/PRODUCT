@@ -30,7 +30,7 @@ export default function Live() {
 
 
 Check Yours👇👇
-wisheszone.web.app
+wisheszonee.web.app
  
         `;
         const encodedMessage = encodeURIComponent(message);

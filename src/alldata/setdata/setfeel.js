@@ -41,7 +41,7 @@ export default function Setfeel() {
 *Surprise:-${cutee}%*😱
 
 Check Yours👇👇
-wisheszone.web.app
+wisheszonee.web.app
  
         `;
         const encodedMessage = encodeURIComponent(message);

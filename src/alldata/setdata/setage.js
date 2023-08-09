@@ -31,7 +31,7 @@ export default function Setage() {
 
 Are you my best friend ?
 check your mental age👇👇
-wisheszone.web.app
+wisheszonee.web.app
  
         `;
         const encodedMessage = encodeURIComponent(message);

@@ -26,7 +26,7 @@ export default function Setfriends() {
 *${state}* According to your Name Your Best Friend Name Starts From  ❤️ *${randomLetter}* ❤️
 
 Check Your Soulmate Name👇👇
-wisheszone.web.app
+wisheszonee.web.app
 
     `;
         const encodedMessage = encodeURIComponent(message);
